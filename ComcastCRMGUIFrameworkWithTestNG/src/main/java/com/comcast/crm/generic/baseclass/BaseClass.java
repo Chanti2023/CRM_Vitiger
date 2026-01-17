@@ -35,6 +35,7 @@ public class BaseClass {
       public void connectToDB() throws Throwable
       {
 		System.out.println("---connected to DB-----");
+		System.out.println("dsnsndvaawdackanm");
 		dataBaseUtility.getConnection("jdbc:mysql://49.249.28.218:3307/Ninza_HRM","root@%", "root");
       }
 	
